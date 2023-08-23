@@ -1,0 +1,125 @@
+ScriptsOnlyBuild:
+  usedScripts:
+    Assembly-CSharp-Editor.dll:
+    - HutongGames.PlayMakerEditor.EditorStartupPrefs
+    - HutongGames.PlayMakerEditor.FsmActionWindow
+    - HutongGames.PlayMakerEditor.FsmEditorWindow
+    PlayMaker.dll:
+    - PlayMakerFSM
+    - PlayMakerGUI
+    - PlayMakerLateUpdate
+    - PlayMakerPrefs
+    - PlayMakerTriggerEnter
+    - PlayMakerTriggerExit
+    - PlayMakerTriggerStay
+    Unity.Rider.Editor.dll:
+    - Packages.Rider.Editor.UnitTesting.CallbackData
+    UnityEditor.Graphs.dll:
+    - UnityEditor.Graphs.AnimationBlendTree.Graph
+    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
+    - UnityEditor.Graphs.AnimationStateMachine.Graph
+    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
+    - UnityEditor.Graphs.AnimatorControllerTool
+    UnityEditor.TestRunner.dll:
+    - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
+    - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+  sceneClasses:
+    Assets/Scenes/46785e26-9b38-4f1e-b61b-f34f1e856261.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 11406}
+    - Class: 114
+      Script: {instanceID: 13192}
+    - Class: 114
+      Script: {instanceID: 13198}
+    - Class: 114
+      Script: {instanceID: 13210}
+    - Class: 114
+      Script: {instanceID: 13214}
+    - Class: 114
+      Script: {instanceID: 13218}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 136
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+  scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: a17f3cdaffefa864a0d800602bcf922d
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerFSM
+  - hash:
+      serializedVersion: 2
+      Hash: 4002df09187c2b317d58e82d9e4795b2
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerGUI
+  - hash:
+      serializedVersion: 2
+      Hash: 9b8a30b0d2b39397e408f051bc054940
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerLateUpdate
+  - hash:
+      serializedVersion: 2
+      Hash: 9b8a30b0d2b39397e408f051bc054940
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerTriggerEnter
+  - hash:
+      serializedVersion: 2
+      Hash: 9b8a30b0d2b39397e408f051bc054940
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerTriggerExit
+  - hash:
+      serializedVersion: 2
+      Hash: 9b8a30b0d2b39397e408f051bc054940
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerTriggerStay
+  platform: 19
+  scenePathNames:
+  - Assets/Scenes/46785e26-9b38-4f1e-b61b-f34f1e856261.unity
+  playerPath: "/Users/kanahorie/Downloads/ARHkkason__ver2-main/\u6575\u306E\u653B\u6483\u5B9F\u88C5\u5B8C\u4E86/AR_0817/_Output/STYLY_ASSET/Windows/46785e26-9b38-4f1e-b61b-f34f1e856261"
