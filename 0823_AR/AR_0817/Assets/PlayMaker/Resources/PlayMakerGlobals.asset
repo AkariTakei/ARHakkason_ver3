@@ -52,3 +52,8 @@ MonoBehaviour:
   - enterenergy1
   - enterenergy4
   - UpDateHP_text
+  - PopDamage
+  - GameStart_UI
+  - POP_Punch
+  - destroy_punch
+  - Update_itemUI

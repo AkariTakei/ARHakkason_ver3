@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 306207142173321283}
   - component: {fileID: 6777898384130881021}
   m_Layer: 0
-  m_Name: Body13
+  m_Name: light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26,7 +26,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 980937213960538011}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 3362718491749940871}
@@ -58,7 +58,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -8046903143309657733, guid: 9e9e7a6c301ad45a6b95071e89fe6f92, type: 3}
+  - {fileID: 2100000, guid: 5f981f36ce7d8437abcc26947d0da3b8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -91,7 +91,7 @@ GameObject:
   - component: {fileID: 6456677849459269688}
   - component: {fileID: 5010028086739250370}
   m_Layer: 0
-  m_Name: Body8
+  m_Name: light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -137,7 +137,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 8405920497179761665, guid: 9e9e7a6c301ad45a6b95071e89fe6f92, type: 3}
+  - {fileID: 2100000, guid: 5f981f36ce7d8437abcc26947d0da3b8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -170,7 +170,7 @@ GameObject:
   - component: {fileID: 963289056549024723}
   - component: {fileID: 3115191482466330318}
   m_Layer: 0
-  m_Name: Body5
+  m_Name: gray
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -216,7 +216,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 3746574254922419370, guid: 9e9e7a6c301ad45a6b95071e89fe6f92, type: 3}
+  - {fileID: 2100000, guid: 4b061b7ff1eba4ce380d0c5a670ce426, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -249,7 +249,7 @@ GameObject:
   - component: {fileID: 4274988720742197786}
   - component: {fileID: 6381905996742709951}
   m_Layer: 0
-  m_Name: Body15
+  m_Name: light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -295,7 +295,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -8046903143309657733, guid: 9e9e7a6c301ad45a6b95071e89fe6f92, type: 3}
+  - {fileID: 2100000, guid: 5f981f36ce7d8437abcc26947d0da3b8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -326,6 +326,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3362718491749940871}
   - component: {fileID: 8234956396056690849}
+  - component: {fileID: 2974863794262631267}
   m_Layer: 0
   m_Name: energy
   m_TagString: Untagged
@@ -377,6 +378,188 @@ CapsuleCollider:
   m_Height: 0.2949502
   m_Direction: 2
   m_Center: {x: 0, y: -2.5727792e-17, z: -0.0057166815}
+--- !u!114 &2974863794262631267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2729487082557023293}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1384774831, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fsm:
+    dataVersion: 2
+    usedInTemplate: {fileID: 0}
+    name: FSM
+    startState: "\u56DE\u8EE2"
+    states:
+    - name: "\u56DE\u8EE2"
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 50
+        y: 100
+        width: 100
+        height: 16
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions: []
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.Rotate
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: b0327400
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams:
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params:
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {x: 0, y: 0, z: 0}
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 0100000000010000
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 140000001c0000000f0000000f0000000f0000000700000001000000010000000100000001000000
+        paramName:
+        - gameObject
+        - vector
+        - xAngle
+        - yAngle
+        - zAngle
+        - space
+        - perSecond
+        - everyFrame
+        - lateUpdate
+        - fixedUpdate
+        paramDataPos: 00000000000000000000000001000000020000000000000004000000050000000600000007000000
+        paramByteDataSize: 00000000000000000000000000000000000000000400000001000000010000000100000001000000
+    events: []
+    globalTransitions: []
+    variables:
+      floatVariables: []
+      intVariables: []
+      boolVariables: []
+      stringVariables: []
+      vector2Variables: []
+      vector3Variables: []
+      colorVariables: []
+      rectVariables: []
+      quaternionVariables: []
+      gameObjectVariables: []
+      objectVariables: []
+      materialVariables: []
+      textureVariables: []
+      arrayVariables: []
+      enumVariables: []
+      categories:
+      - 
+      variableCategoryIDs: 
+    description: 
+    docUrl: 
+    showStateLabel: 0
+    maxLoopCount: 0
+    watermark: 
+    password: 
+    locked: 0
+    manualUpdate: 0
+    outVariableIndices: 
+    keepDelayedEventsOnStateExit: 0
+    preprocessed: 0
+    ExposedEvents: []
+    OutputEvents: []
+    RestartOnEnable: 1
+    ResetVariablesOnEnable: 0
+    EnableDebugFlow: 0
+    EnableBreakpoints: 1
+    editorFlags: 225
+    activeStateName: 
+    mouseEvents: 0
+    handleLevelLoaded: 0
+    handleTriggerEnter2D: 0
+    handleTriggerExit2D: 0
+    handleTriggerStay2D: 0
+    handleCollisionEnter2D: 0
+    handleCollisionExit2D: 0
+    handleCollisionStay2D: 0
+    handleTriggerEnter: 0
+    handleTriggerExit: 0
+    handleTriggerStay: 0
+    handleCollisionEnter: 0
+    handleCollisionExit: 0
+    handleCollisionStay: 0
+    handleParticleCollision: 0
+    handleControllerColliderHit: 0
+    handleJointBreak: 0
+    handleJointBreak2D: 0
+    handleOnGUI: 0
+    handleFixedUpdate: 0
+    handleLateUpdate: 0
+    handleApplicationEvents: 0
+    handleUiEvents: 0
+    handleLegacyNetworking: 0
+    handleAnimatorMove: 0
+    handleAnimatorIK: 0
+  fsmTemplate: {fileID: 0}
+  eventHandlerComponentsAdded: 0
 --- !u!1 &2791574379276765153
 GameObject:
   m_ObjectHideFlags: 0
@@ -389,7 +572,7 @@ GameObject:
   - component: {fileID: 3296465523805482822}
   - component: {fileID: 1112647212044538183}
   m_Layer: 0
-  m_Name: Body14
+  m_Name: light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -435,7 +618,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -8046903143309657733, guid: 9e9e7a6c301ad45a6b95071e89fe6f92, type: 3}
+  - {fileID: 2100000, guid: 5f981f36ce7d8437abcc26947d0da3b8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -468,7 +651,7 @@ GameObject:
   - component: {fileID: 8612817848322729367}
   - component: {fileID: 7086127578322131557}
   m_Layer: 0
-  m_Name: Body3
+  m_Name: gray
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -514,7 +697,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 8175520583396124056, guid: 9e9e7a6c301ad45a6b95071e89fe6f92, type: 3}
+  - {fileID: 2100000, guid: 4b061b7ff1eba4ce380d0c5a670ce426, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -547,7 +730,7 @@ GameObject:
   - component: {fileID: 4673215421043310099}
   - component: {fileID: 8556505672045355517}
   m_Layer: 0
-  m_Name: Body10
+  m_Name: light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -593,7 +776,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 8405920497179761665, guid: 9e9e7a6c301ad45a6b95071e89fe6f92, type: 3}
+  - {fileID: 2100000, guid: 5f981f36ce7d8437abcc26947d0da3b8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -626,7 +809,7 @@ GameObject:
   - component: {fileID: 5929211673148658053}
   - component: {fileID: 3759677249864453501}
   m_Layer: 0
-  m_Name: Body7
+  m_Name: gray
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -672,7 +855,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 8175520583396124056, guid: 9e9e7a6c301ad45a6b95071e89fe6f92, type: 3}
+  - {fileID: 2100000, guid: 4b061b7ff1eba4ce380d0c5a670ce426, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -705,7 +888,7 @@ GameObject:
   - component: {fileID: 185356659227716464}
   - component: {fileID: 4130182707614503713}
   m_Layer: 0
-  m_Name: Body9
+  m_Name: light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -751,7 +934,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 8405920497179761665, guid: 9e9e7a6c301ad45a6b95071e89fe6f92, type: 3}
+  - {fileID: 2100000, guid: 5f981f36ce7d8437abcc26947d0da3b8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -784,7 +967,7 @@ GameObject:
   - component: {fileID: 5241177707164791418}
   - component: {fileID: 3590092771067923229}
   m_Layer: 0
-  m_Name: Body2
+  m_Name: gray
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -830,7 +1013,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 3746574254922419370, guid: 9e9e7a6c301ad45a6b95071e89fe6f92, type: 3}
+  - {fileID: 2100000, guid: 4b061b7ff1eba4ce380d0c5a670ce426, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -863,7 +1046,7 @@ GameObject:
   - component: {fileID: 3481829752019957605}
   - component: {fileID: 9012581076828459460}
   m_Layer: 0
-  m_Name: Body12
+  m_Name: light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -909,7 +1092,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 8405920497179761665, guid: 9e9e7a6c301ad45a6b95071e89fe6f92, type: 3}
+  - {fileID: 2100000, guid: 5f981f36ce7d8437abcc26947d0da3b8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -942,7 +1125,7 @@ GameObject:
   - component: {fileID: 8733386789906417486}
   - component: {fileID: 3287263177132925009}
   m_Layer: 0
-  m_Name: Body16
+  m_Name: light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -988,7 +1171,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -8046903143309657733, guid: 9e9e7a6c301ad45a6b95071e89fe6f92, type: 3}
+  - {fileID: 2100000, guid: 5f981f36ce7d8437abcc26947d0da3b8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1021,7 +1204,7 @@ GameObject:
   - component: {fileID: 9217844291247685098}
   - component: {fileID: 5940462049614572634}
   m_Layer: 0
-  m_Name: Body11
+  m_Name: light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1067,7 +1250,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 8405920497179761665, guid: 9e9e7a6c301ad45a6b95071e89fe6f92, type: 3}
+  - {fileID: 2100000, guid: 5f981f36ce7d8437abcc26947d0da3b8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1100,7 +1283,7 @@ GameObject:
   - component: {fileID: 5084800497424218385}
   - component: {fileID: 7160554967509090038}
   m_Layer: 0
-  m_Name: Body1
+  m_Name: yellow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1146,7 +1329,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5176535639251915634, guid: 9e9e7a6c301ad45a6b95071e89fe6f92, type: 3}
+  - {fileID: 2100000, guid: f9ff01ca506b34de38ce988135a1350a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1179,7 +1362,7 @@ GameObject:
   - component: {fileID: 4550439821627201385}
   - component: {fileID: 8231727330132884498}
   m_Layer: 0
-  m_Name: Body17
+  m_Name: light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1225,7 +1408,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -8046903143309657733, guid: 9e9e7a6c301ad45a6b95071e89fe6f92, type: 3}
+  - {fileID: 2100000, guid: 5f981f36ce7d8437abcc26947d0da3b8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1258,7 +1441,7 @@ GameObject:
   - component: {fileID: 4401880003691140097}
   - component: {fileID: 7969299696692100518}
   m_Layer: 0
-  m_Name: Body6
+  m_Name: gray
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1304,7 +1487,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 8175520583396124056, guid: 9e9e7a6c301ad45a6b95071e89fe6f92, type: 3}
+  - {fileID: 2100000, guid: 4b061b7ff1eba4ce380d0c5a670ce426, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
