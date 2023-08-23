@@ -57,3 +57,8 @@ MonoBehaviour:
   - POP_Punch
   - destroy_punch
   - Update_itemUI
+  - energy_30sec
+  - enterenergy5
+  - enternotenergy
+  - enemy_boss
+  - delete_enemy4

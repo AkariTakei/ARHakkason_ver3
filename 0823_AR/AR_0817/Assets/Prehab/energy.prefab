@@ -393,7 +393,7 @@ MonoBehaviour:
   fsm:
     dataVersion: 2
     usedInTemplate: {fileID: 0}
-    name: FSM
+    name: animation
     startState: "\u56DE\u8EE2"
     states:
     - name: "\u56DE\u8EE2"
