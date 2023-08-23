@@ -2514,6 +2514,8 @@ MonoBehaviour:
         - HutongGames.PlayMaker.Actions.StringCompare
         - HutongGames.PlayMaker.Actions.StringCompare
         - HutongGames.PlayMaker.Actions.StringCompare
+        - HutongGames.PlayMaker.Actions.StringCompare
+        - HutongGames.PlayMaker.Actions.StringCompare
         customNames:
         - 
         - 
@@ -2523,10 +2525,12 @@ MonoBehaviour:
         - 
         - 
         - 
-        actionEnabled: 0101010101010101
-        actionIsOpen: 0101010101010101
-        actionStartIndex: 0000000002000000050000000b00000011000000170000001d00000023000000
-        actionHashCodes: d5af330271c75a030c0e55020c0e55020c0e55020c0e55020c0e55020c0e5502
+        - 
+        - 
+        actionEnabled: 01010101010101010101
+        actionIsOpen: 01010101010101010101
+        actionStartIndex: 0000000002000000050000000b00000011000000170000001d00000023000000290000002f000000
+        actionHashCodes: d5af330271c75a030c0e55020c0e55020c0e55020c0e55020c0e55020c0e55020c0e55020c0e5502
         unityObjectParams: []
         fsmGameObjectParams:
         - useVariable: 1
@@ -2633,6 +2637,30 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: enemy3_middle
+        - useVariable: 1
+          name: hitobject_name
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: enemy4_nomal
+        - useVariable: 1
+          name: hitobject_name
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: enemy_boss
         fsmObjectParams: []
         fsmVarParams: []
         fsmArrayParams: []
@@ -2640,6 +2668,18 @@ MonoBehaviour:
         fsmFloatParams: []
         fsmIntParams: []
         fsmBoolParams:
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
         - useVariable: 1
           name: 
           tooltip: 
@@ -2694,12 +2734,16 @@ MonoBehaviour:
         - 
         - Pop_Punch
         - 
-        byteData: 00000000000000
+        - Pop_Punch
+        - 
+        - Pop_Punch
+        - 
+        byteData: 000000000000000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 1300000012000000130000001200000001000000120000001200000017000000170000001100000001000000120000001200000017000000170000001100000001000000120000001200000017000000170000001100000001000000120000001200000017000000170000001100000001000000120000001200000017000000170000001100000001000000120000001200000017000000170000001100000001000000
+        paramDataType: 1300000012000000130000001200000001000000120000001200000017000000170000001100000001000000120000001200000017000000170000001100000001000000120000001200000017000000170000001100000001000000120000001200000017000000170000001100000001000000120000001200000017000000170000001100000001000000120000001200000017000000170000001100000001000000120000001200000017000000170000001100000001000000120000001200000017000000170000001100000001000000
         paramName:
         - gameObjectHit
         - physicsMaterialName
@@ -2742,8 +2786,20 @@ MonoBehaviour:
         - notEqualEvent
         - storeResult
         - everyFrame
-        paramDataPos: 00000000000000000100000001000000000000000200000003000000000000000100000000000000010000000400000005000000020000000300000001000000020000000600000007000000040000000500000002000000030000000800000009000000060000000700000003000000040000000a0000000b000000080000000900000004000000050000000c0000000d0000000a0000000b0000000500000006000000
-        paramByteDataSize: 0000000000000000000000000000000001000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000001000000
+        - stringVariable
+        - compareTo
+        - equalEvent
+        - notEqualEvent
+        - storeResult
+        - everyFrame
+        - stringVariable
+        - compareTo
+        - equalEvent
+        - notEqualEvent
+        - storeResult
+        - everyFrame
+        paramDataPos: 00000000000000000100000001000000000000000200000003000000000000000100000000000000010000000400000005000000020000000300000001000000020000000600000007000000040000000500000002000000030000000800000009000000060000000700000003000000040000000a0000000b000000080000000900000004000000050000000c0000000d0000000a0000000b00000005000000060000000e0000000f0000000c0000000d000000060000000700000010000000110000000e0000000f0000000700000008000000
+        paramByteDataSize: 0000000000000000000000000000000001000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000001000000
     - name: "UI\u306BPUNCH\u8868\u793A\u3057\u308D\u3068\u547D\u4EE4\u3059\u308B"
       description: 
       colorIndex: 0
@@ -4714,13 +4770,15 @@ MonoBehaviour:
         actionNames:
         - HutongGames.PlayMaker.Actions.GetEventVector3Data
         - HutongGames.PlayMaker.Actions.CreateObject
+        - HutongGames.PlayMaker.Actions.SetName
         customNames:
         - 
         - 
-        actionEnabled: 0101
-        actionIsOpen: 0101
-        actionStartIndex: 0000000001000000
-        actionHashCodes: cfda430260532301
+        - 
+        actionEnabled: 010101
+        actionIsOpen: 010101
+        actionStartIndex: 000000000100000007000000
+        actionHashCodes: cfda4302605323019bd6f801
         unityObjectParams: []
         fsmGameObjectParams:
         - useVariable: 0
@@ -4743,19 +4801,33 @@ MonoBehaviour:
           networkSync: 0
           value: {fileID: 0}
         - useVariable: 1
-          name: 
+          name: clone_enemy_boss
           tooltip: 
           showInInspector: 0
           networkSync: 0
           value: {fileID: 0}
-        fsmOwnerDefaultParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 1
+          gameObject:
+            useVariable: 1
+            name: clone_enemy_boss
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
         animationCurveParams: []
         functionCallParams: []
         fsmTemplateControlParams: []
         fsmEventTargetParams: []
         fsmPropertyParams: []
         layoutOptionParams: []
-        fsmStringParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: enemy_boss
         fsmObjectParams: []
         fsmVarParams: []
         fsmArrayParams: []
@@ -4792,7 +4864,7 @@ MonoBehaviour:
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 1c0000001300000013000000130000001c0000001c00000013000000
+        paramDataType: 1c0000001300000013000000130000001c0000001c000000130000001400000012000000
         paramName:
         - getVector3Data
         - gameObject
@@ -4801,8 +4873,10 @@ MonoBehaviour:
         - position
         - rotation
         - storeObject
-        paramDataPos: 00000000000000000100000002000000010000000200000003000000
-        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000
+        - gameObject
+        - name
+        paramDataPos: 000000000000000001000000020000000100000002000000030000000000000000000000
+        paramByteDataSize: 000000000000000000000000000000000000000000000000000000000000000000000000
     - name: "\u30CE\u30FC\u30DE\u30EB\u306E\u3044\u3061"
       description: 
       colorIndex: 0
@@ -5413,6 +5487,12 @@ MonoBehaviour:
         showInInspector: 0
         networkSync: 0
         value: {fileID: 0}
+      - useVariable: 1
+        name: clone_enemy_boss
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: {fileID: 0}
       objectVariables: []
       materialVariables: []
       textureVariables: []
@@ -5420,7 +5500,7 @@ MonoBehaviour:
       enumVariables: []
       categories:
       - 
-      variableCategoryIDs: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+      variableCategoryIDs: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
     description: 
     docUrl: 
     showStateLabel: 0
