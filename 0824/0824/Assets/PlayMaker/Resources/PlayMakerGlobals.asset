@@ -73,3 +73,19 @@ MonoBehaviour:
   - destroy_effect_long
   - destroy_effect_middle
   - destroy_effect_mini
+  - Stop_SlowBGM
+  - Play_BGM
+  - destroy_SE_event
+  - gameOver_SE_event
+  - gameover_sound_SE_event
+  - getdamage_SE_event
+  - Punch_hit_SE_event
+  - star_gong_SE_event
+  - startCountDown_SE_event
+  - timeOver_countDown_SE_event
+  - Punch_kettei_SE_event
+  - getitem_correct_SE_event
+  - getitem_miss_SE_event
+  - boss_spawn_SE_event
+  - crear_SE_event
+  - Stop_play_BGm
