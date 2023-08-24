@@ -1,3 +1,0 @@
-The scripts in the folder "unity-audio-spectrum" are made by Keijiro Takahashi.
-The repository is here:
- https://github.com/keijiro/unity-audio-spectrum

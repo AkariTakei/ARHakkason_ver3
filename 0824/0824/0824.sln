@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{dceeb533-b4f5-c3a1-8ab4-e983d25b9cab}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FeatureComponents", "FeatureComponents.csproj", "{67424767-3fd5-90cd-10c3-c5a7fa681634}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IFeatureComponents", "IFeatureComponents.csproj", "{eceac3ce-d62b-5cc3-afe7-472d48d425ad}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DummyImplements", "DummyImplements.csproj", "{c5bf9f21-da63-ddc1-e266-d4105452c698}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "STYLY.StylyService", "STYLY.StylyService.csproj", "{e7c13281-714f-186c-eff1-1ad72934ed04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "STYLY_MaintenranceTool.Runtime", "STYLY_MaintenranceTool.Runtime.csproj", "{00f3a0b1-a257-3bb6-f612-de12b37b66cc}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BindSystem", "BindSystem.csproj", "{a80452f0-ac5e-8698-2423-86ea2758720f}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{02df4cb4-1e1f-05f5-655d-ae12c66f12ba}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simulator.Editor", "Simulator.Editor.csproj", "{137a8f9d-7c06-5059-6f44-4007893e2c63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "STYLY_MaintenanceTool.Editor", "STYLY_MaintenanceTool.Editor.csproj", "{db9c10d9-5d3c-c66d-f126-cbc09f5976c7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocalPreviewTool.Editor", "LocalPreviewTool.Editor.csproj", "{966c918a-ef8f-7309-f71f-8481b3ecc099}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FeatureComponents.Editor", "FeatureComponents.Editor.csproj", "{e2f26892-a3ae-51b4-6b57-ddef55bcc02f}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{dceeb533-b4f5-c3a1-8ab4-e983d25b9cab}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{dceeb533-b4f5-c3a1-8ab4-e983d25b9cab}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67424767-3fd5-90cd-10c3-c5a7fa681634}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67424767-3fd5-90cd-10c3-c5a7fa681634}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{eceac3ce-d62b-5cc3-afe7-472d48d425ad}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{eceac3ce-d62b-5cc3-afe7-472d48d425ad}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{c5bf9f21-da63-ddc1-e266-d4105452c698}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{c5bf9f21-da63-ddc1-e266-d4105452c698}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{e7c13281-714f-186c-eff1-1ad72934ed04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{e7c13281-714f-186c-eff1-1ad72934ed04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00f3a0b1-a257-3bb6-f612-de12b37b66cc}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00f3a0b1-a257-3bb6-f612-de12b37b66cc}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{a80452f0-ac5e-8698-2423-86ea2758720f}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{a80452f0-ac5e-8698-2423-86ea2758720f}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02df4cb4-1e1f-05f5-655d-ae12c66f12ba}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02df4cb4-1e1f-05f5-655d-ae12c66f12ba}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{137a8f9d-7c06-5059-6f44-4007893e2c63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{137a8f9d-7c06-5059-6f44-4007893e2c63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{db9c10d9-5d3c-c66d-f126-cbc09f5976c7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{db9c10d9-5d3c-c66d-f126-cbc09f5976c7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{966c918a-ef8f-7309-f71f-8481b3ecc099}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{966c918a-ef8f-7309-f71f-8481b3ecc099}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{e2f26892-a3ae-51b4-6b57-ddef55bcc02f}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{e2f26892-a3ae-51b4-6b57-ddef55bcc02f}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

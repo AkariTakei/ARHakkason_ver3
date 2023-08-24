@@ -1,2 +1,0 @@
-# STYLY-InteractionSDK
-STYLY-InteractionSDK
