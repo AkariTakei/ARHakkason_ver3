@@ -17,10 +17,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -33,8 +31,9 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
     - UnityEngine.UI.Slider
+    - UnityEngine.UI.Text
   sceneClasses:
-    Assets/Scenes/ec4f44af-a05a-4c4e-8ea1-ebb42c28367a.unity:
+    Assets/Scenes/18691112-dbc8-4130-befc-fcae143ad53b.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -76,6 +75,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11456}
     - Class: 114
+      Script: {instanceID: 11908}
+    - Class: 114
       Script: {instanceID: 11980}
     - Class: 114
       Script: {instanceID: 13090}
@@ -95,6 +96,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 16896}
     - Class: 115
       Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
     - Class: 135
       Script: {instanceID: 0}
     - Class: 136
@@ -102,6 +105,10 @@ ScriptsOnlyBuild:
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
       Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
@@ -130,6 +137,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: aeb62f729c52c814dec86c47dcac1471
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Text
   - hash:
       serializedVersion: 2
       Hash: 89f9a1b4c64db9559e39f4a2e3bfaadd
@@ -186,5 +199,5 @@ ScriptsOnlyBuild:
     className: Slider
   platform: 9
   scenePathNames:
-  - Assets/Scenes/ec4f44af-a05a-4c4e-8ea1-ebb42c28367a.unity
-  playerPath: /Users/takeiakari/Desktop/0823_AR/AR_0817/_Output/STYLY_ASSET/iOS/ec4f44af-a05a-4c4e-8ea1-ebb42c28367a
+  - Assets/Scenes/18691112-dbc8-4130-befc-fcae143ad53b.unity
+  playerPath: /Users/takeiakari/GitHub/ARHakkason_ver3/0824/0824/_Output/STYLY_ASSET/iOS/18691112-dbc8-4130-befc-fcae143ad53b

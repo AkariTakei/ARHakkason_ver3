@@ -256,31 +256,31 @@
         <HintPath>/Applications/Unity/Hub/Editor/2019.4.29f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="PlayMaker">
-        <HintPath>/Users/takeiakari/Desktop/0824/0824/Assets/Plugins/PlayMaker/PlayMaker.dll</HintPath>
+        <HintPath>/Users/takeiakari/GitHub/ARHakkason_ver3/0824/0824/Assets/Plugins/PlayMaker/PlayMaker.dll</HintPath>
     </Reference>
     <Reference Include="ConditionalExpression">
-        <HintPath>/Users/takeiakari/Desktop/0824/0824/Assets/PlayMaker/ConditionalExpression.dll</HintPath>
+        <HintPath>/Users/takeiakari/GitHub/ARHakkason_ver3/0824/0824/Assets/PlayMaker/ConditionalExpression.dll</HintPath>
     </Reference>
     <Reference Include="ConditionalExpressionEditor">
-        <HintPath>/Users/takeiakari/Desktop/0824/0824/Assets/PlayMaker/Editor/ConditionalExpressionEditor.dll</HintPath>
+        <HintPath>/Users/takeiakari/GitHub/ARHakkason_ver3/0824/0824/Assets/PlayMaker/Editor/ConditionalExpressionEditor.dll</HintPath>
     </Reference>
     <Reference Include="PlayMakerEditor">
-        <HintPath>/Users/takeiakari/Desktop/0824/0824/Assets/PlayMaker/Editor/PlayMakerEditor.dll</HintPath>
+        <HintPath>/Users/takeiakari/GitHub/ARHakkason_ver3/0824/0824/Assets/PlayMaker/Editor/PlayMakerEditor.dll</HintPath>
     </Reference>
     <Reference Include="PlayMakerEditorResources">
-        <HintPath>/Users/takeiakari/Desktop/0824/0824/Assets/PlayMaker/Editor/PlayMakerEditorResources.dll</HintPath>
+        <HintPath>/Users/takeiakari/GitHub/ARHakkason_ver3/0824/0824/Assets/PlayMaker/Editor/PlayMakerEditorResources.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
-        <HintPath>/Users/takeiakari/Desktop/0824/0824/Library/PackageCache/com.unity.collab-proxy@1.6.0/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+        <HintPath>/Users/takeiakari/GitHub/ARHakkason_ver3/0824/0824/Library/PackageCache/com.unity.collab-proxy@1.6.0/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="unityplastic">
-        <HintPath>/Users/takeiakari/Desktop/0824/0824/Library/PackageCache/com.unity.collab-proxy@1.6.0/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
+        <HintPath>/Users/takeiakari/GitHub/ARHakkason_ver3/0824/0824/Library/PackageCache/com.unity.collab-proxy@1.6.0/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Plastic.Antlr3.Runtime">
-        <HintPath>/Users/takeiakari/Desktop/0824/0824/Library/PackageCache/com.unity.collab-proxy@1.6.0/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+        <HintPath>/Users/takeiakari/GitHub/ARHakkason_ver3/0824/0824/Library/PackageCache/com.unity.collab-proxy@1.6.0/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="log4netPlastic">
-        <HintPath>/Users/takeiakari/Desktop/0824/0824/Library/PackageCache/com.unity.collab-proxy@1.6.0/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+        <HintPath>/Users/takeiakari/GitHub/ARHakkason_ver3/0824/0824/Library/PackageCache/com.unity.collab-proxy@1.6.0/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
         <HintPath>/Applications/Unity/Hub/Editor/2019.4.29f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -634,10 +634,10 @@
         <HintPath>/Applications/Unity/Hub/Editor/2019.4.29f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/mscorlib.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-        <HintPath>/Users/takeiakari/Desktop/0824/0824/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+        <HintPath>/Users/takeiakari/GitHub/ARHakkason_ver3/0824/0824/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-        <HintPath>/Users/takeiakari/Desktop/0824/0824/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+        <HintPath>/Users/takeiakari/GitHub/ARHakkason_ver3/0824/0824/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
