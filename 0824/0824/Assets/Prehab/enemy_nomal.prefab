@@ -4040,16 +4040,26 @@ MonoBehaviour:
       actionData:
         actionNames:
         - HutongGames.PlayMaker.Actions.SendEvent
+        - HutongGames.PlayMaker.Actions.FindGameObject
+        - HutongGames.PlayMaker.Actions.SendEvent
         - HutongGames.PlayMaker.Actions.DestroySelf
         customNames:
         - 
         - 
-        actionEnabled: 0101
-        actionIsOpen: 0101
-        actionStartIndex: 0000000004000000
-        actionHashCodes: 5e69bb04230cc800
+        - 
+        - 
+        actionEnabled: 01010101
+        actionIsOpen: 01010101
+        actionStartIndex: 0000000004000000070000000b000000
+        actionHashCodes: 5e69bb04786b39025e69bb04230cc800
         unityObjectParams: []
-        fsmGameObjectParams: []
+        fsmGameObjectParams:
+        - useVariable: 1
+          name: effect_manager
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 0}
         fsmOwnerDefaultParams: []
         animationCurveParams: []
         functionCallParams: []
@@ -4087,14 +4097,64 @@ MonoBehaviour:
             networkSync: 0
             value: 0
           fsmComponent: {fileID: 0}
+        - target: 1
+          excludeSelf:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: 0
+          gameObject:
+            ownerOption: 1
+            gameObject:
+              useVariable: 1
+              name: effect_manager
+              tooltip: 
+              showInInspector: 0
+              networkSync: 0
+              value: {fileID: 0}
+          fsmName:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: 
+          sendToChildren:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: 0
+          fsmComponent: {fileID: 0}
         fsmPropertyParams: []
         layoutOptionParams: []
-        fsmStringParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: effectManager
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: Untagged
         fsmObjectParams: []
         fsmVarParams: []
         fsmArrayParams: []
         fsmEnumParams: []
         fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
         - useVariable: 0
           name: 
           tooltip: 
@@ -4128,13 +4188,21 @@ MonoBehaviour:
         fsmQuaternionParams: []
         stringParams:
         - ChangeColorNomal
-        byteData: 00
+        - destroy_effect
+        byteData: 0000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 1f000000170000000f000000010000000f0000001100000011000000
+        paramDataType: 1f000000170000000f000000010000001200000012000000130000001f000000170000000f000000010000000f0000001100000011000000
         paramName:
+        - eventTarget
+        - sendEvent
+        - delay
+        - everyFrame
+        - objectName
+        - withTag
+        - store
         - eventTarget
         - sendEvent
         - delay
@@ -4142,8 +4210,8 @@ MonoBehaviour:
         - delay
         - realTime
         - detachChildren
-        paramDataPos: 00000000000000000000000000000000010000000000000001000000
-        paramByteDataSize: 00000000000000000000000001000000000000000000000000000000
+        paramDataPos: 0000000000000000000000000000000000000000010000000000000001000000010000000100000001000000020000000000000001000000
+        paramByteDataSize: 0000000000000000000000000100000000000000000000000000000000000000000000000000000001000000000000000000000000000000
     events:
     - name: FINISHED
       isSystemEvent: 1
@@ -4152,6 +4220,9 @@ MonoBehaviour:
       isSystemEvent: 0
       isGlobal: 0
     - name: Player_Attack
+      isSystemEvent: 0
+      isGlobal: 1
+    - name: destroy_effect
       isSystemEvent: 0
       isGlobal: 1
     globalTransitions:
@@ -4188,6 +4259,12 @@ MonoBehaviour:
       quaternionVariables: []
       gameObjectVariables:
       - useVariable: 1
+        name: effect_manager
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: {fileID: 0}
+      - useVariable: 1
         name: player
         tooltip: 
         showInInspector: 0
@@ -4214,7 +4291,7 @@ MonoBehaviour:
       enumVariables: []
       categories:
       - 
-      variableCategoryIDs: 0000000000000000000000000000000000000000
+      variableCategoryIDs: 000000000000000000000000000000000000000000000000
     description: 
     docUrl: 
     showStateLabel: 0

@@ -68,3 +68,8 @@ MonoBehaviour:
   - GetPanching
   - delete_boss
   - GAMEOVER_event
+  - destroy_effect
+  - destroy_effect_boss
+  - destroy_effect_long
+  - destroy_effect_middle
+  - destroy_effect_mini

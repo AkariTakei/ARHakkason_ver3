@@ -3709,20 +3709,30 @@ MonoBehaviour:
         - HutongGames.PlayMaker.Actions.FindGameObject
         - HutongGames.PlayMaker.Actions.SendEvent
         - HutongGames.PlayMaker.Actions.SendEvent
+        - HutongGames.PlayMaker.Actions.FindGameObject
+        - HutongGames.PlayMaker.Actions.SendEvent
         - HutongGames.PlayMaker.Actions.DestroySelf
         customNames:
         - 
         - 
         - 
         - 
-        actionEnabled: 01010101
-        actionIsOpen: 01010101
-        actionStartIndex: 0000000003000000070000000b000000
-        actionHashCodes: 786b39025e69bb045e69bb04230cc800
+        - 
+        - 
+        actionEnabled: 010101010101
+        actionIsOpen: 010101010101
+        actionStartIndex: 0000000003000000070000000b0000000e00000012000000
+        actionHashCodes: 786b39025e69bb045e69bb04786b39025e69bb04230cc800
         unityObjectParams: []
         fsmGameObjectParams:
         - useVariable: 1
           name: itemmanager
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 0}
+        - useVariable: 1
+          name: effect_manager
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -3796,6 +3806,38 @@ MonoBehaviour:
             networkSync: 0
             value: 0
           fsmComponent: {fileID: 0}
+        - target: 1
+          excludeSelf:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: 0
+          gameObject:
+            ownerOption: 1
+            gameObject:
+              useVariable: 1
+              name: effect_manager
+              tooltip: 
+              showInInspector: 0
+              networkSync: 0
+              value: {fileID: 0}
+          fsmName:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: 
+          sendToChildren:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: 0
+          fsmComponent: {fileID: 0}
         fsmPropertyParams: []
         layoutOptionParams: []
         fsmStringParams:
@@ -3811,11 +3853,29 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: Untagged
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: effectManager
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: Untagged
         fsmObjectParams: []
         fsmVarParams: []
         fsmArrayParams: []
         fsmEnumParams: []
         fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
         - useVariable: 0
           name: 
           tooltip: 
@@ -3856,12 +3916,13 @@ MonoBehaviour:
         stringParams:
         - delete_enemy4
         - ChangeColorNomal
-        byteData: 0000
+        - destroy_effect
+        byteData: 000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 1200000012000000130000001f000000170000000f000000010000001f000000170000000f000000010000000f0000001100000011000000
+        paramDataType: 1200000012000000130000001f000000170000000f000000010000001f000000170000000f000000010000001200000012000000130000001f000000170000000f000000010000000f0000001100000011000000
         paramName:
         - objectName
         - withTag
@@ -3874,11 +3935,18 @@ MonoBehaviour:
         - sendEvent
         - delay
         - everyFrame
+        - objectName
+        - withTag
+        - store
+        - eventTarget
+        - sendEvent
+        - delay
+        - everyFrame
         - delay
         - realTime
         - detachChildren
-        paramDataPos: 0000000001000000000000000000000000000000000000000000000001000000010000000100000001000000020000000000000001000000
-        paramByteDataSize: 0000000000000000000000000000000000000000000000000100000000000000000000000000000001000000000000000000000000000000
+        paramDataPos: 000000000100000000000000000000000000000000000000000000000100000001000000010000000100000002000000030000000100000002000000020000000200000002000000030000000000000001000000
+        paramByteDataSize: 000000000000000000000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000000000000000000000000000001000000000000000000000000000000
     events:
     - name: FINISHED
       isSystemEvent: 1
@@ -3937,6 +4005,12 @@ MonoBehaviour:
         showInInspector: 0
         networkSync: 0
         value: {fileID: 0}
+      - useVariable: 1
+        name: effect_manager
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: {fileID: 0}
       objectVariables: []
       materialVariables:
       - useVariable: 1
@@ -3958,7 +4032,7 @@ MonoBehaviour:
       enumVariables: []
       categories:
       - 
-      variableCategoryIDs: 000000000000000000000000000000000000000000000000
+      variableCategoryIDs: 00000000000000000000000000000000000000000000000000000000
     description: 
     docUrl: 
     showStateLabel: 0
