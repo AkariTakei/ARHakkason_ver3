@@ -62,3 +62,8 @@ MonoBehaviour:
   - enternotenergy
   - enemy_boss
   - delete_enemy4
+  - Update_Time
+  - send_currentTIme
+  - send_startTIme
+  - GetPanching
+  - delete_boss
