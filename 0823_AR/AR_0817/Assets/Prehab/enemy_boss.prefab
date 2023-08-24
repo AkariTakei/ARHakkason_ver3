@@ -374,7 +374,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c29da8bc831c74557b12ce06f97c81e2, type: 2}
+  - {fileID: 2100000, guid: 6ac159a6e8f97475b9406e356998c950, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1625,7 +1625,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 1
+          value: 1.5
         - useVariable: 0
           name: 
           tooltip: 
@@ -4286,7 +4286,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c29da8bc831c74557b12ce06f97c81e2, type: 2}
+  - {fileID: 2100000, guid: 6ac159a6e8f97475b9406e356998c950, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4444,7 +4444,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c29da8bc831c74557b12ce06f97c81e2, type: 2}
+  - {fileID: 2100000, guid: 6ac159a6e8f97475b9406e356998c950, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
